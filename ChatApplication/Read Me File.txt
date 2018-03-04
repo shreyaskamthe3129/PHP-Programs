@@ -1,0 +1,22 @@
+Student Id : 1001427250
+Student Name : Shreyas Kamthe
+
+Following are the insert queries for the users :-
+
+insert into users values ('shreyas',md5('shreyas'),'Shreyas Kamthe','shreyas.kamthe@test.com');
+insert into users values ('tejas',md5('tejas'),'Tejas Gadkari','tejas.gadkari@test.com');
+insert into users values ('vinit',md5('vinit'),'Vinit Parekh','vinit.parekh@test.com');
+
+The username and passwords are :-
+
+tejas tejas
+shreyas shreyas
+vinit vinit
+
+Please note that another PHP file called DatabaseConnection.php has been submitted 
+so that only one connection of identical credentials are created in the connection pool.
+The changes regarding the database connection are to be made in this file.
+
+There is a single textarea as mentioned in the description used for both New Post and Reply Post.
+
+
